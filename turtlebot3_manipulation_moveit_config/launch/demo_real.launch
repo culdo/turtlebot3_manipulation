@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find turtlebot3_manipulation_moveit_config)/launch/demo.launch">
+      <arg name="fake_execution" value="false"/>
+  </include>
+</launch>
